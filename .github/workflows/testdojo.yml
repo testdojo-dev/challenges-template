@@ -7,11 +7,9 @@ on:
   workflow_dispatch:
     inputs:
       challenge:
-        description: Challenge
+        description: Challenge (for example registration-rookie)
         required: true
-        default: registration-rookie
-        type: choice
-        options: [registration-rookie]
+        type: string
       stack:
         description: Framework and language
         required: true
