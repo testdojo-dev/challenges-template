@@ -22,7 +22,7 @@ public class RegistrationRookie {
             Browser browser = playwright.chromium().connectOverCDP(env("TESTDOJO_CDP", "http://127.0.0.1:9222"));
             BrowserContext context = browser.contexts().get(0);
             Page page = context.pages().isEmpty() ? context.newPage() : context.pages().get(0);
-            String baseUrl = env("TESTDOJO_URL", "https://testdojo.testverse.workers.dev");
+            String baseUrl = env("TESTDOJO_URL", "https://testdojo.dev");
 
             // ---- Your code ----
             page.navigate(baseUrl + "/elements/forms.html");

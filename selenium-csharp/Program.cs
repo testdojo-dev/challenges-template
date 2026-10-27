@@ -16,7 +16,7 @@ using OpenQA.Selenium.Support.UI;
 // ---- TestDojo setup: connects to the browser the checks started. Don't change. ----
 var options = new ChromeOptions { DebuggerAddress = Env("TESTDOJO_DEBUGGER", "127.0.0.1:9222") };
 IWebDriver driver = new ChromeDriver(options);
-var baseUrl = Env("TESTDOJO_URL", "https://testdojo.testverse.workers.dev");
+var baseUrl = Env("TESTDOJO_URL", "https://testdojo.dev");
 
 // ---- Your code ----
 driver.Navigate().GoToUrl($"{baseUrl}/elements/forms.html");

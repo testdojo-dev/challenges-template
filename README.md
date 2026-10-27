@@ -1,6 +1,6 @@
 # My TestDojo challenges
 
-My solutions to the [TestDojo automation challenges](https://testdojo.testverse.workers.dev/challenges).
+My solutions to the [TestDojo automation challenges](https://testdojo.dev/challenges).
 
 Solve them right on TestDojo: pick a challenge, choose Selenium or Playwright and a language,
 write your code in the editor, then **Commit & push** and **Run test**. Your code is saved here,

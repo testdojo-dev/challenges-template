@@ -24,7 +24,7 @@ public class RegistrationRookie {
         ChromeOptions options = new ChromeOptions();
         options.setExperimentalOption("debuggerAddress", env("TESTDOJO_DEBUGGER", "127.0.0.1:9222"));
         WebDriver driver = new ChromeDriver(options);
-        String baseUrl = env("TESTDOJO_URL", "https://testdojo.testverse.workers.dev");
+        String baseUrl = env("TESTDOJO_URL", "https://testdojo.dev");
 
         // ---- Your code ----
         driver.get(baseUrl + "/elements/forms.html");
