@@ -12,6 +12,8 @@ permissions:
 jobs:
   challenge:
     name: Challenge ${{ matrix.id }}
+    # The template itself has no solutions; only run in learners' copies.
+    if: github.repository != 'testdojo-dev/challenges-template'
     runs-on: ubuntu-latest
     timeout-minutes: 15
     strategy:
