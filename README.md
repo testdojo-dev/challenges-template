@@ -17,6 +17,10 @@ Each challenge has one file per language. Registration Rookie and First Purchase
 | Playwright | TypeScript | `playwright-ts/registration-rookie.ts`, `first-purchase.ts` |
 | Playwright | Java | `playwright-java/src/main/java/RegistrationRookie.java`, `FirstPurchase.java` |
 
+New challenges are added over time. If your repo doesn't have a challenge's file yet, just open
+the challenge on TestDojo: the editor starts you from the starter code, and **Commit & push**
+adds the file here.
+
 Each file starts with a short **TestDojo setup** block that connects your code to the browser
 the checks start. Leave that block as it is and write your automation below it.
 
